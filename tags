@@ -1,0 +1,91 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/wuwenwu/work/colube_deploy/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/b0bb484d/
+Accept	lib/cache.js	/^    const headers = { Accept: 'application\/vnd.github.preview' }$/;"	p	class:module.exports.cacheReleaseList.headers
+Accept	lib/cache.js	/^    const headers = { Accept: 'application\/vnd.github.preview' }$/;"	p	class:module.exports.refreshCache.headers
+Accept	lib/routes.js	/^    const headers = { Accept: 'application\/octet-stream' }$/;"	p	class:headers
+AppImage	lib/aliases.js	/^  AppImage: ['appimage'],$/;"	p	class:aliases
+Cache	lib/cache.js	/^module.exports = class Cache {$/;"	c
+Cache	lib/index.js	/^const Cache = require('.\/cache')$/;"	C
+Cache	test/cache.test.js	/^const Cache = require('..\/lib\/cache')$/;"	C
+Router	lib/index.js	/^const Router = require('router')$/;"	C
+account	lib/routes.js	/^        account: config.account,$/;"	p	class:details
+aliases	lib/aliases.js	/^const aliases = {$/;"	c
+aliases	test/aliases.test.js	/^const aliases = require('..\/lib\/aliases')$/;"	C
+allReleases	lib/routes.js	/^        allReleases: `https:\/\/github.com\/${config.account}\/${$/;"	p	class:details
+arch	lib/platform.js	/^  const arch = (fileName.includes('arm64') || fileName.includes('aarch64')) ? '_arm64' : ''$/;"	C
+cache	lib/index.js	/^    cache = new Cache(config)$/;"	v
+cache	lib/index.js	/^  let cache = null;$/;"	v
+cache	lib/routes.js	/^module.exports = ({ cache, config }) => {$/;"	M	class:module.exports
+cacheReleaseList	lib/cache.js	/^  async cacheReleaseList(url) {$/;"	m	class:module.exports
+checkAlias	lib/routes.js	/^const checkAlias = require('.\/aliases')$/;"	C
+checkPlatform	lib/cache.js	/^const checkPlatform = require('.\/platform')$/;"	C
+constructor	lib/cache.js	/^  constructor(config) {$/;"	m	class:module.exports
+content	lib/routes.js	/^    const content = latest.files.RELEASES$/;"	C
+convertStream	lib/cache.js	/^const convertStream = require('stream-to-string')$/;"	C
+darwin	lib/aliases.js	/^  darwin: ['mac', 'macos', 'osx'],$/;"	p	class:aliases
+date	lib/routes.js	/^        date: distanceInWordsToNow(latest.pub_date, { addSuffix: true }),$/;"	p	class:details
+deb	lib/aliases.js	/^  deb: ['debian'],$/;"	p	class:aliases
+details	lib/routes.js	/^      const details = {$/;"	c
+directCache	lib/platform.js	/^  const directCache = ['exe', 'dmg', 'rpm', 'deb', 'AppImage']$/;"	C
+distanceInWordsToNow	lib/routes.js	/^const distanceInWordsToNow = require('date-fns\/distance_in_words_to_now')$/;"	C
+dmg	lib/aliases.js	/^  dmg: ['dmg']$/;"	p	class:aliases
+exe	lib/aliases.js	/^  exe: ['win32', 'windows', 'win'],$/;"	p	class:aliases
+exports	lib/cache.js	/^module.exports = class Cache {$/;"	c	class:module
+exports	lib/routes.js	/^  const exports = {}$/;"	C
+extension	lib/platform.js	/^  const extension = extname(fileName).slice(1)$/;"	C
+fetch	lib/cache.js	/^const fetch = require('node-fetch')$/;"	C
+fetch	lib/routes.js	/^const fetch = require('node-fetch')$/;"	C
+files	lib/routes.js	/^        files: latest.platforms,$/;"	p	class:details
+finalUrl	lib/routes.js	/^    const finalUrl = rawUrl.replace($/;"	C
+finalhandler	lib/index.js	/^const finalhandler = require('finalhandler')$/;"	C
+fs	lib/view.js	/^const fs = require('fs')$/;"	C
+github	lib/routes.js	/^        github: `https:\/\/github.com\/${config.account}\/${config.repository}`$/;"	p	class:details
+hazel	lib/server.js	/^const hazel = require('.\/index')$/;"	C
+headers	lib/cache.js	/^    const headers = { Accept: 'application\/vnd.github.preview' }$/;"	c	class:module.exports.cacheReleaseList
+headers	lib/cache.js	/^    const headers = { Accept: 'application\/vnd.github.preview' }$/;"	c	class:module.exports.refreshCache
+headers	lib/routes.js	/^    const headers = { Accept: 'application\/octet-stream' }$/;"	c
+headers	lib/routes.js	/^    const options = { headers, redirect }$/;"	M	class:options
+isOutdated	lib/cache.js	/^  isOutdated() {$/;"	m	class:module.exports
+isUpdate	lib/routes.js	/^    const isUpdate = params && params.update$/;"	C
+latest	lib/routes.js	/^    const latest = await loadCache()$/;"	C
+list	lib/aliases.js	/^    const list = aliases[guess]$/;"	C
+listen	test/server.test.js	/^const listen = require('test-listen')$/;"	C
+loadCache	lib/cache.js	/^  async loadCache() {$/;"	m	class:module.exports
+micro	test/server.test.js	/^const micro = require('micro')$/;"	C
+ms	lib/cache.js	/^const ms = require('ms')$/;"	C
+name	lib/cache.js	/^        name,$/;"	M	class:latest.latest
+newPlatform	lib/aliases.js	/^  const newPlatform = existingPlatform + '_arm64';$/;"	C
+options	lib/routes.js	/^    const options = { headers, redirect }$/;"	C
+params	lib/routes.js	/^    const params = urlHelpers.parse(req.url, true).query$/;"	C
+path	lib/view.js	/^const path = require('path')$/;"	C
+platform	lib/routes.js	/^    const platform = checkAlias(platformName)$/;"	C
+platform	lib/routes.js	/^    let platform$/;"	v
+platform	test/platform.test.js	/^const platform = require('..\/lib\/platform')$/;"	C
+prepareView	lib/routes.js	/^const prepareView = require('.\/view')$/;"	C
+proxyPrivateDownload	lib/routes.js	/^  const proxyPrivateDownload = (asset, req, res) => {$/;"	C
+redirect	lib/routes.js	/^    const redirect = 'manual'$/;"	C
+refreshCache	lib/cache.js	/^  async refreshCache() {$/;"	m	class:module.exports
+releaseNotes	lib/routes.js	/^        releaseNotes: `https:\/\/github.com\/${config.account}\/${$/;"	p	class:details
+render	lib/routes.js	/^      const render = await prepareView()$/;"	C
+repository	lib/routes.js	/^        repository: config.repository,$/;"	p	class:details
+retry	lib/cache.js	/^const retry = require('async-retry')$/;"	C
+router	lib/index.js	/^  const router = Router()$/;"	C
+routes	lib/index.js	/^  const routes = require('.\/routes')({ cache, config })$/;"	C
+rpm	lib/aliases.js	/^  rpm: ['fedora'],$/;"	p	class:aliases
+server	api/index.js	/^const server = require('..\/lib\/server');$/;"	C
+shouldProxyPrivateDownload	lib/routes.js	/^  const shouldProxyPrivateDownload =$/;"	C
+url	lib/server.js	/^const url = VERCEL_URL || PRIVATE_BASE_URL$/;"	C
+urlHelpers	lib/routes.js	/^const urlHelpers = require('url');$/;"	C
+userAgent	lib/routes.js	/^    const userAgent = parse(req.headers['user-agent'])$/;"	C
+version	lib/routes.js	/^        version: latest.version,$/;"	p	class:details
+viewContent	lib/view.js	/^  const viewContent = await promisify(fs.readFile)(viewPath, 'utf8')$/;"	C
+viewPath	lib/view.js	/^  const viewPath = path.normalize(path.join(__dirname, '\/..\/views\/index.hbs'))$/;"	C
